@@ -1,11 +1,10 @@
-#topo-principal {
-    background-color: #E36A6A;
+#topo-principal { \n
+    background-color: #E36A6A; \n
     color: #ffffff;
     padding: 20px;
-    margin: 20px;            /*Afasta o cabeçalho da borda da página*/
-    border-radius: 20px;     /*Arredonda o cabeçalho*/
-}
+    margin: 20px;            
+    border-radius: 20px;     
 
-nav ul li {                  /*deixa as bolinhas da lista coloridas*/
+nav ul li {                  
     color: #ffbfbf;
 }
