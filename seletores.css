@@ -1,0 +1,50 @@
+body {
+    background-color: #FFF2D0;
+    font-family: Arial, sans-serif;
+
+}
+
+#topo-principal { 
+    background-color: #E36A6A; 
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;            /*Afasta o cabeçalho da borda da página*/
+    border-radius: 20px;     /*Arredonda o cabeçalho*/
+}
+
+.card {
+    background-color: #FFB2B2;   
+    border-radius: 10px;      
+    width: 200px;             
+    padding: 15px;            
+    margin: 10px;             
+    display: inline-block; 
+}
+
+p span {
+    font-weight: bold;
+    color: #E36A6A;
+}
+
+h1, h2 {
+    color: #FFF2D0;
+}
+
+.card.destaque {
+    border: 3px solid #E36A6A;
+    scale: (1.05);
+}
+
+button:hover {
+    background-color: #E36A6A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav ul li {                  
+    color: #ffbfbf;          /*Deixa as bolinhas da lista colorida*/
+}
+
+nav ul li:nth-child(2) {
+    text-transform: uppercase;
+}
